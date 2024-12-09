@@ -19,16 +19,14 @@ let array = JSON.parse(localStorage.getItem('userlist'));
 for (const user of array) {
     let div = document.createElement("div")
     list.appendChild(div);
-    let u = user.name+'='+user.value;
-    div.innerText = u;
+    div.innerText = user.name+'='+user.value;
 }
 
 // сортування користувачів за імям
 let suname = document.getElementById(2);
 suname.onclick = function () {
     list.innerText = '';
-   let nsort=array.sort((a, b) =>
-   {
+   let nsort =array.sort((a, b) => {
        if (a.name > b.name) {
            return 1;
        }
