@@ -63,8 +63,7 @@ suvalue.onclick = function () {
     for (const vsort of array) {
         let div = document.createElement("div");
         list.appendChild(div);
-        let v = vsort.name+'='+vsort.value;
-        div.innerText = v;
+        div.innerText = vsort.name+'='+vsort.value;
     }
 }
 
