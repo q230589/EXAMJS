@@ -24,12 +24,13 @@ h1{
 
     font-size: 40px;
 }
-label.form{
+.form{
     display: flex;
     flex-direction: column;
     margin-top: 60px;
     color: silver;
 }
+form{display: flex}
 input{
     width: 600px;
     border: 1px solid silver;
@@ -56,9 +57,11 @@ div.rb{
 }
 button{
     margin-left: 40px;
-    width: 50px;
+    width: 60px;
+    margin-top: 75px;
 }
 button.sname{
+    margin-top: 0;
     width: 100px;
     margin-bottom: 20px;
 }
