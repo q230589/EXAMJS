@@ -40,8 +40,8 @@ suname.onclick = function () {
     for (const nsort of array) {
         let div = document.createElement("div")
         list.appendChild(div);
-        let u = nsort.name+'='+nsort.value;
-        div.innerText = u;
+        div.innerText = nsort.name+'='+nsort.value;
+
     }
 }
 // сортування користувачів за значенням
