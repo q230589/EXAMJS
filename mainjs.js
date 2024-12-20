@@ -26,7 +26,7 @@ for (const user of array) {
 let suname = document.getElementById(2);
 suname.onclick = function () {
     list.innerText = '';
-   let nsort = array.sort((a, b) => {
+    array.sort((a, b) => {
        if (a.name > b.name) {
            return 1;
        }
