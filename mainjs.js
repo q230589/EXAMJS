@@ -48,7 +48,7 @@ suname.onclick = function () {
 let suvalue = document.getElementById(3);
 suvalue.onclick = function () {
     list.innerText = '';
-    let vsort=array.sort((a, b) =>
+    array.sort((a, b) =>
     {
         if (a.value > b.value) {
             return 1;
