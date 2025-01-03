@@ -1,0 +1,46 @@
+@media screen and (min-width: 0) and (max-width: 480px){
+    div.all{
+    display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+
+}
+    div.list {
+        width: 345px;
+        height: 300px;
+        border: 1px solid silver;
+        display: flex;
+        flex-direction: column;
+    }
+    div.mainrb{
+        display: flex;
+        flex-direction: column;
+    }
+    button.sname {
+        margin: 10px 0 10px 0;
+
+    }
+    button.delete {
+        margin: 10px 0 0 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        display: flex;
+        width: 345px;
+        border: 1px solid silver;
+    }
+    button {
+        margin-left: 0;
+        width: 60px;
+        margin-top: 15px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        color: silver;
+    }
+}
